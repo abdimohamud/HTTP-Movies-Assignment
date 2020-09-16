@@ -65,6 +65,33 @@ body {
   background-color: green;
   color: white;
 }
+/* EDIT BUTTON */
+.edit-button {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.edit-button:hover {
+  background-color: green;
+  color: white;
+}
+/* DELETE BUTTON */
+.delete-button {
+  position: absolute;
+  top: 100px;
+  
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: red;
+}
+.delete-button:hover {
+  background-color: white;
+  color: black;
+}
 
 .home-button {
   padding: 5px 10px;
@@ -73,5 +100,22 @@ body {
 
 .movie-warning {
   color: red;
+  text-align: center;
+}
+/* FORM */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 300px;
+}
+input {
+  border: 0;
+  outline: none;
+  padding-bottom: 4%;
+}
+
+.update h2{
   text-align: center;
 }
